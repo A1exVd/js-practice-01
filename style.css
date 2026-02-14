@@ -1,0 +1,64 @@
+/* Базовые стили для светлой темы */
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#app {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Класс для темной темы (Задание 1) */
+body.dark-theme {
+    --bg-color: #2c3e50;
+    --text-color: #ecf0f1;
+}
+
+body.dark-theme h1 {
+    color: #3498db;
+}
+
+body.dark-theme #app {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
