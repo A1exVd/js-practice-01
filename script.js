@@ -1,8 +1,6 @@
 // ЗАДАНИЕ 1: Переключение темы
 
-
 const themeButton = document.getElementById('theme-toggle');
-
 
 // Проверить наличие сохранненнной темы в localStorage
 const savedTheme = localStorage.getItem('theme');
