@@ -2,7 +2,7 @@
 
 const themeButton = document.getElementById('theme-toggle');
 
-// Проверить наличие сохранненнной темы в localStorage
+// Проверить наличие сохраненной темы в localStorage
 const savedTheme = localStorage.getItem('theme');
 if(savedTheme === 'dark') {
    document.body.classList.add('dark-theme');
